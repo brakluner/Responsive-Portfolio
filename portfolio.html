@@ -5,76 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ted Web World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="primary-header group">
-            <h1 class="logo">
+            <h1 class="logo col-1">
                 Ted Web World
             </h1>
-            <nav class="nav primary-nav">
-                <ul>
-                    <li><a href="index.html">Ted Web World</a><!--
-                    --><li><a href="portfolio.html">Portfolio</a><!--
-                    --><li><a href="contact.html">Contact</a>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Explore!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Ted Web World<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Audio Production
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item">
+                                <div>
+                                <article>Surge</article>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Surge1.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/pandemonium.wav" type="audio/wav"> 
+                                </audio>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Brain Soda Posting049.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Brain Soda Posting007.wav" type="audio/wav"> 
+                                </audio>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/doom76.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Song Writer
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item">
+                                <div>
+                                <article>Giant</article>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Giant.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Iwasawindow.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Brain Soda Posting026.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Brain Soda Posting027.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                                <div>
+                                <audio controls class="audio">
+                                        <source src="assets/audio/Whywontpeopleleavemealone.wav" type="audio/wav"> 
+                                </audio>
+                                </div>
+                        </a>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
             </nav>
     </header>
-    <section class="container" style="background-image: url('assets/img/wall4.jpg');">
+    <div class="spinner-grow text-primary col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-primary col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-secondary col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-success col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-danger col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-warning col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-info col-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light col-6" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-light col-6" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark col-6" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-dark col-6" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    <section class="container" style="background-image: url('assets/img/9.PNG');">
         <div class="row">
-            <h2>Portfolio</h2>
-                <div class="portfolio">
-                    <h6>Audio Production</h6>
-                    <audio controls class="audio">
-                            <source src="assets/audio/Surge1.wav" type="audio/wav"> 
-                    </audio>
-                    <audio controls class="audio">
-                            <source src="assets/audio/pandemonium.wav" type="audio/wav"> 
-                    </audio>
-                    <audio controls class="audio">
-                            <source src="assets/audio/Brain Soda Posting049.wav" type="audio/wav"> 
-                    </audio>
-                    <audio controls class="audio">
-                            <source src="assets/audio/Brain Soda Posting007.wav" type="audio/wav"> 
-                    </audio>
-                    <audio controls class="audio">
-                            <source src="assets/audio/doom76.wav" type="audio/wav"> 
-                    </audio>
-                    <p>Instrumentalist and Composer</p>
-                </div>
-                <div class="portfolio">
+            <h2 class="col">Portfolio</h2>
+        </div>
+        <div class="row">
+                <div class="col-sm">
                     <h5>Disco Overlords</h5>
                     <video controls class="portfolio">
                             <source src="assets/video/0000-0200.mp4" type="video/mp4"> 
                     </video>
                     <p>3D Rendering</p>
                 </div>
-                <div class="portfolio">
+                <div class="col-sm">
                     <h5>Minerva Shrine</h5>
-                    <img src="assets/img/minervashrine.PNG" alt="Owl">
+                    <img class="portfolio" src="assets/img/minervashrine.PNG" alt="Owl">
                     <p>2D Design</p>
-                </div>
-                <div class="portfolio">
-                        <h6>Song Writer</h6>
-                        <audio controls class="audio">
-                                <source src="assets/audio/Giant.wav" type="audio/wav"> 
-                        </audio>
-                        <audio controls class="audio">
-                                <source src="assets/audio/Iwasawindow.wav" type="audio/wav"> 
-                        </audio>
-                        <audio controls class="audio">
-                                <source src="assets/audio/Brain Soda Posting026.wav" type="audio/wav"> 
-                        </audio>
-                        <audio controls class="audio">
-                                <source src="assets/audio/Brain Soda Posting027.wav" type="audio/wav"> 
-                        </audio>
-                        <audio controls class="audio">
-                                <source src="assets/audio/Whywontpeopleleavemealone.wav" type="audio/wav"> 
-                        </audio>
-                        <p>Live Music</p>
                 </div>
         </div>
     </section>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+        document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+</script>
 </body>
 <footer>
 		<small>&copy; Ted Web World est. 2019</small>
